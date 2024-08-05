@@ -37,7 +37,7 @@ public class Main {
             System.out.println("Insert money is not sufficient");
         }
         System.out.println("Dispensing the following notes");
-        for(int denomination : NOTES_DENOMINATION){pwd
+        for(int denomination : NOTES_DENOMINATION){
             if(remainingAmount==0)
                 break;
             int numberOfNotes= remainingAmount/denomination;
